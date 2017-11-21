@@ -1,10 +1,17 @@
 title: Скучное место
 description: Hacker Space Boring Place.
 show_downloads: true
+
+baseurl: ""
+url: "http://boringplace.org"
 google_analytics:
+host: tor
+
 theme: jekyll-theme-hacker
 lang: ru
 langs:
   - ru
   - en
-host: tor
+
+twitter_username: boringplacenet
+github_username: boringplace
