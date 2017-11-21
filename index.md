@@ -2,122 +2,56 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Стартовая страница Хакспейса **"Скучное место"**.
 
-[Link to another page](another-page).
+[Другая страница](another-page).
 
-There should be whitespace between paragraphs.
+# [](#header-1)С чего мы начнём?
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Мы долго присматривались к вопросу самоорганизации технических сообществ на уровне города. Вспоминали былое и нынешнее (Фидопойки, Линуксовки, SFD, Митапы, Конференции,...)
+И, в итоге, пришли к выводу, что нам нужна база. Как метериаральная, так и информационая. Но, в любом случае, техническая. Поэтому ты решили создать Хакспейс в формате технического Антикафе.
 
-# [](#header-1)Header 1
+## [](#header-2)Цели
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Собрать технические сообщества вживую, дать им площадку для обмена идеями и их демонстрации всем желающим - вот основая цель, ради которой мы решили создать наше "Скучное место".
+Для нормального, технически не увлечённого человека то, что мы хотим предоставить, действительно может выглядеть *скучновато* ;)
+Мы хотим видеть именно заинтересованных людей, дать повод для взаимодействия серьёзно увлечённых инженеров.
+Наш девиз: "Нам нужны сильные инженеры!"
 
-## [](#header-2)Header 2
+## [](#header-3)Задачи
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Хочется начать всё сразу, но так не бывает. Поэтому мы будем планировать нашу деятельность и оформлять её так, чтобы, шаг за шагом, результаты накапливались в виде проработанных технических примеров,
+стендов, на которых эти примеры можно воспроизвести, и, главное, компетентных людей, желающих развиваться и способных делиться накопленным опытом и знаниями.
 
-### [](#header-3)Header 3
+## [](#header-4)Деятельность
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+Технические сообщества более зависимы от материально-технической базы. Это связано с тем, что полноценные производственные цепочки должны обеспечивать самовопроизводство, а это предполагает
+огромные, неочевидные, стратегические издержки. Поэтому сделать что-то точное и качественное стоит очень дорогои это почти всегда единичные экземпляры. Даже в сфере информационных технологий.
+
+Поэтому мы планируем собрать у себя достаточно сложную инфраструктуру для каждого предполагаемого рабочего места:
+* управляемое двухфазное питание (цифровое и силовое);
+* проводная, гигабитная компьютерная сеть;
+* отдельное освещение;
+* доступное специальное оборудование в виде мультиметров, осциллографов, спектранализаторов и т.п.;
+* подготовленная сетевая инфраструктура для экспериментов.
+
+### [](#header-6)Ближайшие планы
+
+* система регистрации участников
+```bash
+# Welcome to Boring Hub.
+$ ssh reg@hub.boringplace.net
 ```
+* **CTF** - хакерские соревнования
+* винтаж - ламповая техника
+* дворовая робототехника
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### [](#header-7)Плановые мероприятия
 
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+* Встречи SarLUG (Да, мы хотим возобновить проведение линуксовок на нашей площадке!)
+* ...
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
+Ну, вот пока и всё.
+Ждём всех заинтересовавшихся в нашей системе регистрации.
 ```

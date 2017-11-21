@@ -3,3 +3,8 @@ description: Hacker Space Boring Place.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
+lang: ru
+langs:
+  - ru
+  - en
+host: tor
