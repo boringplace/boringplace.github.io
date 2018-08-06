@@ -6,6 +6,7 @@ layout: default
 
 * [Наши мероприятия](events)
 * [Проект "Techno Competitions"](robotics)
+* [Контакты](contacts)
 
 # [](#header-1)С чего мы начнём?
 
