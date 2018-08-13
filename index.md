@@ -4,7 +4,9 @@ layout: default
 
 Стартовая страница Хакспейса **"Скучное место"**.
 
-[Наши мероприятия](events).
+* [Наши мероприятия](events)
+* [Проект "Techno Competitions"](robotics)
+* [Контакты](contacts)
 
 # [](#header-1)С чего мы начнём?
 

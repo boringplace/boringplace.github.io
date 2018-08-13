@@ -15,3 +15,10 @@ langs:
 
 twitter_username: boringplacenet
 github_username: boringplace
+
+# Exclude files from being included into resulting website
+exclude:
+  - makefile
+  - README.md
+  - thumbnail.png
+
