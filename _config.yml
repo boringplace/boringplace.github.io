@@ -16,6 +16,9 @@ langs:
 twitter_username: boringplacenet
 github_username: boringplace
 
+plugins:
+  - jekyll-seo-tag
+
 # Exclude files from being included into resulting website
 exclude:
   - makefile
