@@ -8,6 +8,13 @@ layout: default
 * [Проект "SarLUG"](sarlug)
 * [Контакты](contacts)
 
+# [](#position)Расположение
+<iframe
+  width="500px"
+  height="400px"
+  src="http://openstreetmap.ru/frame.php?mapid=1319997191&noscreenshot=1">
+</iframe>
+
 # [](#header-1)С чего мы начнём?
 
 Мы долго присматривались к вопросу самоорганизации технических сообществ
