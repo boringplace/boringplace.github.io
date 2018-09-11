@@ -10,8 +10,8 @@ layout: default
 
 # [](#position)Расположение
 <iframe
-  width="280px"
-  height="300px"
+  width="295px"
+  height="400px"
   src="http://openstreetmap.ru/frame.php?mapid=1319997191&noscreenshot=1">
 </iframe>
 
