@@ -8,6 +8,10 @@ layout: default
 * [Проект "SarLUG"](sarlug)
 * [Контакты](contacts)
 
+### Предстоящие мероприятия
+
+* [Software Freedom Day Saratov 2018 (2018.09.15)](events/sfd-saratov-2018)
+
 # [](#position)Расположение
 <iframe
   width="295px"
