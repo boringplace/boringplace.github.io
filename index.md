@@ -18,6 +18,8 @@ layout: default
   height="400px"
   src="http://openstreetmap.ru/frame.php?mapid=1319997191&noscreenshot=1">
 </iframe>
+Вы также можете скачать точку расположения в виде
+[GPX отметки](boringplace.gpx).
 
 # [](#header-1)С чего мы начнём?
 
