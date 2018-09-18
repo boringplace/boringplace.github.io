@@ -7,11 +7,13 @@ permalink: /events/
 
 ## [](#header-2) Предстоящие мероприятия
 
-* [Software Freedom Day Saratov 2018 (2018.09.15)](sfd-saratov-2018)
-* SarLUG (линуксовка) 2018.09.16
+* SarLUG (линуксовка) 2018.09.30
 
 
 ## [](#header-3) Прошедшие мероприятия
+
+* SarLUG (линуксовка) 2018.09.16
+* [Software Freedom Day Saratov 2018 (2018.09.15)](sfd-saratov-2018)
 
 * [SarLUG (линуксовка) 2018.09.02](sarlug-2018-09-02)
 * Презентация для детей из центра "Семья" (2018.08.23)
