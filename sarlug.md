@@ -26,7 +26,7 @@ Linux User Group города Саратов (SarLUG) - одна из старе
 О ближайшем мероприятии Вы можете узнать из календаря ниже:
 <iframe
 	src="https://calendar.yandex.ru/month?embed&layer_ids=6482174&tz_id=Europe/Saratov"
-	width="400"
+	width="355"
 	height="600"
 	frameborder="0"
 	style="border: 1px solid #eee">
