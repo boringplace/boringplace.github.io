@@ -1,10 +1,12 @@
 ---
 layout: default
+title: >
+  Проект "Language of Hardware"
 permalink: /language-of-hardware/
 ---
 
 
-# [](#header-1) Проект "Language of Hardware"
+# [](#header-1) {{ page.title }}
 
 
 ## О проекте

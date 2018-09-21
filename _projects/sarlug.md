@@ -1,10 +1,12 @@
 ---
 layout: default
+title: >
+  Проект "Saratov Linux User Group"
 permalink: /sarlug/
 ---
 
 
-# [](#header-1) Saratov Linux User Group
+# [](#header-1) {{ page.title }}
 
 
 ## О проекте

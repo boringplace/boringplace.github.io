@@ -1,9 +1,11 @@
 ---
 layout: default
+title: >
+  Контакты
 permalink: /contacts/
 ---
 
-# [](#header-1) Контакты
+# [](#header-1) {{ page.title }}
 
 * IRC: #boringplace @ irc.freenode.net
 * Список рассылки: [https://lists.lug.ru/mailman/listinfo/sarlug](https://lists.lug.ru/mailman/listinfo/sarlug)
