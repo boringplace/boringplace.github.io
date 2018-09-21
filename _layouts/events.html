@@ -37,7 +37,7 @@
           {%- for evt in site.events -%}
             {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
             {%- if pdate < cdate -%}
-	    <li><a href="{{ evt.url }}">{{ evt.date }} {{ evt.title }}</a></li>
+            <li><a href="{{ evt.url }}">{{ evt.date }} {{ evt.title }}</a></li>
             {%- endif -%}
           {%- endfor -%}
         </ul>
@@ -45,6 +45,9 @@
       <section id="contents">
         {{ content }}
       </section>
+      <section id="back">
+        <p>[<a href="{{ site.url }}">на главную</a>]</p>
+      <section>
     </div>
   </body>
 </html>
