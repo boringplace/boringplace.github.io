@@ -32,7 +32,7 @@ Linux User Group города Саратов (SarLUG) - одна из старе
 	style="border: 1px solid #eee">
 </iframe>
 
-Кроме того информационное сопровождение "линуксовок" проихводится с
+Кроме того информационное сопровождение "линуксовок" производится с
 помощью списка рассылки:
 [sarlug -at- lists.lug.ru](https://lists.lug.ru/mailman/listinfo/sarlug)
 и группы вконтакте:
