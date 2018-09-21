@@ -19,6 +19,12 @@ github_username: boringplace
 plugins:
   - jekyll-seo-tag
 
+collections:
+  events:
+    output: true
+  projects:
+    output: true
+
 # Exclude files from being included into resulting website
 exclude:
   - makefile
