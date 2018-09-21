@@ -23,6 +23,3 @@ permalink: /robotics/
 
 * [Ресурсы проектов по робототехнике](resources)
 
-
-[назад](../index)
-

@@ -26,5 +26,3 @@ permalink: /contacts/
 Вы также можете скачать точку расположения в виде
 [GPX отметки](/boringplace.gpx).
 
-[назад](../index)
-

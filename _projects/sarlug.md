@@ -40,5 +40,3 @@ Linux User Group города Саратов (SarLUG) - одна из старе
 и группы вконтакте:
 [VK/SarLUG](https://vk.com/sarlug).
 
-[назад](../index)
-
