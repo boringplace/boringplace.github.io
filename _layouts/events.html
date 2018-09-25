@@ -20,17 +20,37 @@
 
     <div class="container">
       {%- assign cdate = site.time | date: '%s' | plus: 0 -%}
+
+      {%- comment -%}
+        Проверить - есть ли в наборе предстоящие мероприятия.
+      {%- endcomment -%}
+
+      {%- assign fevtc = 0 -%}
+      {%- for evt in site.events -%}
+        {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
+        {%- if pdate > cdate -%}
+          {%- increment fevtc -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- comment -%}
+        Показывать блок о будущих мероприятиях, только когда они есть
+        в наличии.
+      {%- endcomment -%}
+
+      {%- if fevtc > 0 -%}
       <section id="future-events">
         <h1 id="h-future-events">Будущие мероприятия</h1>
         <ul>
           {%- for evt in site.events -%}
             {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
             {%- if pdate > cdate -%}
-	    <li><a href="{{ evt.url }}">{{ evt.date }} {{ evt.title }}</a></li>
+            <li><a href="{{ evt.url }}">{{ evt.date }} {{ evt.title }}</a></li>
             {%- endif -%}
           {%- endfor -%}
         </ul>
       </section>
+      {%- endif -%}
       <section id="past-events">
         <h1 id="h-past-events">Прошедшие мероприятия</h1>
         <ul>
