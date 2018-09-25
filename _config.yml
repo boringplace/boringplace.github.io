@@ -1,6 +1,8 @@
 title: Скучное место
 description: Hacker Space Boring Place.
 show_downloads: true
+future: true
+timezone: Europe/Saratov
 
 baseurl: ""
 url: "http://boringplace.org"
