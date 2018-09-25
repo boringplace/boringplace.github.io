@@ -54,7 +54,8 @@
       <section id="past-events">
         <h1 id="h-past-events">Прошедшие мероприятия</h1>
         <ul>
-          {%- for evt in site.events -%}
+          {%- assign ordevts = site.events | sort: 'date' | reverse -%}
+          {%- for evt in ordevts -%}
             {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
             {%- if pdate < cdate -%}
             <li><a href="{{ evt.url }}">{{ evt.date | date: '%Y.%m.%d %H:%M' }} {{ evt.title }}</a></li>
