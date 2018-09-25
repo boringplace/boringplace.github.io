@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: contacts
 title: >
   Контакты
 permalink: /contacts/
@@ -7,27 +7,11 @@ permalink: /contacts/
 
 # [](#header-1) {{ page.title }}
 
-* IRC: #boringplace @ irc.freenode.net
-* Список рассылки: [https://lists.lug.ru/mailman/listinfo/sarlug](https://lists.lug.ru/mailman/listinfo/sarlug)
-* Группа ВКонтакте: [https://vk.com/boringplacenet](https://vk.com/boringplacenet)
+* IRC: <a href="{{ site.bplace-irc }}">{{ site.bplace-irc }}</a>
+* Список рассылки: [{{ site.bplace-sarlugmail }}]({{ site.bplace-sarlugmail }})
+* Группа ВКонтакте: [{{ site.bplace-vk }}]({{ site.bplace-vk }})
 * Телефоны:
-  * Рабочий: +7 8452 98-78-18
-  * Мобильный: +7 917 208-78-18
+  * Рабочий: {{ site.bplace-phone }}
+  * Мобильный: {{ site.bplace-mobile }}
+* Часы работы: 10:00-18:00 с понедельника по пятницу
 
-*Расположение*:
-
-<iframe
-  width="500px"
-  height="400px"
-  src="http://openstreetmap.ru/frame.php?mapid=1319997191?noscreenshot=1">
-</iframe>
-Наш адрес: г. Саратов, Мичурина, д. 155 (угол Московская, д. 29)
-
-Вы также можете скачать точку расположения в виде
-[GPX отметки](/boringplace.gpx).
-
-Наш адрес: г. Саратов, Мичурина, д. 155 (угол Московская, д. 29)
-Вход с Мичурина, нас немного тяжело найти, потому приводим кликабельную фотографию входа в "Скучное Место":
-<a href="{{ site.url }}/assets/images/entrance.png">
-  <img src="{{ site.url }}/assets/images/entrance-mini.png">
-</a>

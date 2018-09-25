@@ -3,21 +3,6 @@ layout: main
 title: Хакспейс Скучное Место
 ---
 
-# [](#position)Расположение
-<iframe
-  width="295px"
-  height="400px"
-  src="http://openstreetmap.ru/frame.php?mapid=1319997191&noscreenshot=1">
-</iframe>
-Cкачать точку расположения в виде [GPX отметки](boringplace.gpx).
-
-Наш адрес: г. Саратов, Мичурина, д. 155 (угол Московской, д. 29),
-вход с улицы Мичурина. Нас немного тяжело найти, потому приводим
-кликабельную фотографию входа в "Скучное Место":
-<a href="{{ site.url }}/assets/images/entrance.png">
-  <img src="{{ site.url }}/assets/images/entrance-mini.png">
-</a>
-
 # [](#header-1)С чего мы начнём?
 
 Мы долго присматривались к вопросу самоорганизации технических сообществ
