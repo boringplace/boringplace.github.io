@@ -1,9 +1,11 @@
 ---
 layout: default
+title: >
+  Контакты
 permalink: /contacts/
 ---
 
-# [](#header-1) Контакты
+# [](#header-1) {{ page.title }}
 
 * IRC: #boringplace @ irc.freenode.net
 * Список рассылки: [https://lists.lug.ru/mailman/listinfo/sarlug](https://lists.lug.ru/mailman/listinfo/sarlug)
@@ -24,5 +26,8 @@ permalink: /contacts/
 Вы также можете скачать точку расположения в виде
 [GPX отметки](/boringplace.gpx).
 
-[назад](../index)
-
+Наш адрес: г. Саратов, Мичурина, д. 155 (угол Московская, д. 29)
+Вход с Мичурина, нас немного тяжело найти, потому приводим кликабельную фотографию входа в "Скучное Место":
+<a href="{{ site.url }}/assets/images/entrance.png">
+  <img src="{{ site.url }}/assets/images/entrance-mini.png">
+</a>
