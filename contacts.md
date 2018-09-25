@@ -19,6 +19,7 @@ permalink: /contacts/
   height="400px"
   src="http://openstreetmap.ru/frame.php?mapid=1319997191?noscreenshot=1">
 </iframe>
+Наш адрес: г. Саратов, Мичурина, д. 155 (угол Московская, д. 29)
 Вы также можете скачать точку расположения в виде
 [GPX отметки](/boringplace.gpx).
 
