@@ -1,12 +1,10 @@
 ---
 layout: default
-title: >
-  Проект "Language of Hardware"
 permalink: /language-of-hardware/
 ---
 
 
-# [](#header-1) {{ page.title }}
+# [](#header-1) Проект "Language of Hardware"
 
 
 ## О проекте
@@ -41,4 +39,7 @@ permalink: /language-of-hardware/
 
 Команда Скучного Места рада приветствовать всех заинтересованных в
 данной тематике и приглашает присоединиться к движению.
+
+
+[назад](../index)
 

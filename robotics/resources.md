@@ -63,3 +63,6 @@ layout: default
 
 [назад](index)
 
+
+[главная](../index)
+
