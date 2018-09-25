@@ -36,7 +36,7 @@ Linux User Group города Саратов (SarLUG) - одна из старе
 
 Кроме того информационное сопровождение "линуксовок" производится с
 помощью списка рассылки:
-[sarlug -at- lists.lug.ru](https://lists.lug.ru/mailman/listinfo/sarlug)
+[sarlug -at- lists.lug.ru]({{ site.bplace-sarlugmail }})
 и группы вконтакте:
-[VK/SarLUG](https://vk.com/sarlug).
+[VK/SarLUG]({{ site.bplace-sarlugvk }}).
 
