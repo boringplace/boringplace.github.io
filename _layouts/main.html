@@ -35,7 +35,7 @@
             {% assign cdate = site.time | date: '%s' | plus: 0 %}
             {% assign pdate = evt.date | date: '%s' | plus: 0 %}
             {% if pdate > cdate %}
-            <li><a href="{{ evt.url }}">{{ evt.date | date: '%Y.%m.%d %H:%M' }} {{ evt.title }}</a></li>
+            <li>{{ evt.date | date: '%Y.%m.%d %H:%M' }} <a href="{{ evt.url }}">{{ evt.title }}</a></li>
             {% endif %}
           {%- endfor -%}
           <li>Линуксовка, по традиции, каждые 2-ве недели в воскресенье,
