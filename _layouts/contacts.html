@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+        <p><b>Расположение</b></p>
+        {%- include address.html -%}
+      </section>
+      <section id="back">
+        <p><a href="{{ site.url }}" class="btn">на главную</a></p>
+      </section>
+    </div>
+
+  </body>
+</html>
