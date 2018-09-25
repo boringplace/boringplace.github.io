@@ -1,12 +1,10 @@
 ---
 layout: default
-title: >
-  Проект "Techno Competitions"
 permalink: /robotics/
 ---
 
 
-# [](#header-1) {{ page.title }}
+# [](#header-1) Проект "Techno Competitions"
 
 
 ## О проекте
@@ -22,4 +20,7 @@ permalink: /robotics/
 ## Содержание
 
 * [Ресурсы проектов по робототехнике](resources)
+
+
+[назад](../index)
 
