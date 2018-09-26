@@ -13,7 +13,7 @@
 
     <header>
       <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
       </div>
     </header>
@@ -28,7 +28,6 @@
         </ul>
       </section>
 
-      {%- if site.events.size > 0 -%}
       <section id="events">
         <h1 id="h-future-events">Предстоящие мероприятия</h1>
         <ul>
@@ -36,7 +35,7 @@
             {% assign cdate = site.time | date: '%s' | plus: 0 %}
             {% assign pdate = evt.date | date: '%s' | plus: 0 %}
             {% if pdate > cdate %}
-            <li><a href="{{ evt.url }}">{{ evt.date }} {{ evt.title }}</a></li>
+            <li>{{ evt.date | date: '%Y.%m.%d %H:%M' }} <a href="{{ evt.url }}">{{ evt.title }}</a></li>
             {% endif %}
           {%- endfor -%}
           <li>Линуксовка, по традиции, каждые 2-ве недели в воскресенье,
@@ -44,8 +43,9 @@
           <a href="sarlug">Странице проекта “SarLUG”</a></li>
         </ul>
       </section>
-      {%- endif -%}
       <section id="main_content">
+        <h1 id="position">Расположение</h1>
+        {%- include address.html -%}
         {{ content }}
       </section>
     </div>
