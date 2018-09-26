@@ -24,7 +24,7 @@ plugins:
 collections:
   events:
     output: true
-  projects:
+  pages:
     output: true
 
 # Exclude files from being included into resulting website
