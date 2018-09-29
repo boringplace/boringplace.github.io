@@ -1,6 +1,8 @@
 title: Скучное место
 description: Hacker Space Boring Place.
 show_downloads: true
+future: true
+timezone: Europe/Saratov
 
 baseurl: ""
 url: "http://boringplace.org"
@@ -19,9 +21,24 @@ github_username: boringplace
 plugins:
   - jekyll-seo-tag
 
+collections:
+  events:
+    output: true
+  pages:
+    output: true
+
 # Exclude files from being included into resulting website
 exclude:
   - makefile
   - README.md
   - thumbnail.png
+
+# Some variables to insert into pages
+bplace-mobile: "+7 917 208-78-18"
+bplace-phone: "+7 8452 98-78-18"
+bplace-vk: "https://vk.com/boringplacenet"
+bplace-irc: "irc:#boringplace@irc.freenode.net"
+bplace-address: "г. Саратов, ул. Мичурина, д. 155 (угол Московская, д. 29), вход с улицы Мичурина"
+bplace-sarlugmail: "https://lists.lug.ru/mailman/listinfo/sarlug"
+bplace-sarlugvk: "https://vk.com/sarlug"
 

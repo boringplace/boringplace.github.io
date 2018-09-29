@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      {%- assign cdate = site.time | date: '%s' | plus: 0 -%}
+
+      {%- comment -%}
+        Проверить - есть ли в наборе предстоящие мероприятия.
+      {%- endcomment -%}
+
+      {%- assign fevtc = 0 -%}
+      {%- for evt in site.events -%}
+        {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
+        {%- if pdate > cdate -%}
+          {%- increment fevtc -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- comment -%}
+        Показывать блок о будущих мероприятиях, только когда они есть
+        в наличии.
+      {%- endcomment -%}
+
+      {%- if fevtc > 0 -%}
+      <section id="future-events">
+        <h1 id="h-future-events">Будущие мероприятия</h1>
+        <ul>
+          {%- for evt in site.events -%}
+            {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
+            {%- if pdate > cdate -%}
+            <li>{{ evt.date | date: '%Y.%m.%d %H:%M'}} <a href="{{ evt.url }}">{{ evt.title }}</a></li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </section>
+      {%- endif -%}
+      <section id="past-events">
+        <h1 id="h-past-events">Прошедшие мероприятия</h1>
+        <ul>
+          {%- assign ordevts = site.events | sort: 'date' | reverse -%}
+          {%- for evt in ordevts -%}
+            {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
+            {%- if pdate < cdate -%}
+            <li>{{ evt.date | date: '%Y.%m.%d %H:%M' }} <a href="{{ evt.url }}">{{ evt.title }}</a></li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      </section>
+      <section id="contents">
+        {{ content }}
+      </section>
+      <section id="back">
+        <p><a href="{{ site.url }}" class="btn">на главную</a></p>
+      <section>
+    </div>
+  </body>
+</html>
