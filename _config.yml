@@ -5,7 +5,7 @@ future: true
 timezone: Europe/Saratov
 
 baseurl: ""
-url: "http://boringplace.org"
+url: "//www.boringplace.org"
 google_analytics:
 host: tor
 
