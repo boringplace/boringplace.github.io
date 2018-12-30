@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<gpx
- version="1.0"
- creator="OpenStreetMap.ru PersonalMap: http://openstreetmap.ru/?mapid=1319997191"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xmlns="http://www.topografix.com/GPX/1/0"
- xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd"><metadata><name></name><desc></desc></metadata><wpt lat="51.530164093479" lon="46.050208210945"><name>Хаскспейс "Скучное Место"</name><cmt>Полуподвальное помещение под магазином "Музобоз".</cmt></wpt></gpx>
+<gpx creator="QMapShack 1.11.0 http://www.qlandkarte.org/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd ">
+ <metadata>
+  <name>BoringPlace</name>
+  <time>2018-09-29T23:54:59.596Z</time>
+ </metadata>
+ <wpt lat="51.53016409" lon="46.05020821">
+  <ele>43</ele>
+  <name>Хакспейс "Скучное Место"</name>
+  <cmt>Полуподвальное помещение под магазином "Музобоз".</cmt>
+  <desc>Хакспейс "Скучное Место" это дочерняя организация Саратовского Фонда СПО - место для организации мероприятий и встреч единомышленников, где Вы можете поделиться своим опытом, или, наоборот, получить помощь от людей, разделяющих Ваши интересы.
+
+Хакспейс "Скучное Место" организует под своим флагом людей из всех высокотехнологичных сфер как IT, машиностроение, медицина, строительство и не только.</desc>
+  <link href="https://boringplace.org/">
+   <text>Скучное Место</text>
+   <type>Website</type>
+  </link>
+ </wpt>
+</gpx>
