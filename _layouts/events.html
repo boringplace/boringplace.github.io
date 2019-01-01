@@ -29,7 +29,7 @@
       {%- for evt in site.events -%}
         {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
         {%- if pdate > cdate -%}
-          {%- increment fevtc -%}
+          {%- assign fevtc = fevtc | plus: 1 -%}
         {%- endif -%}
       {%- endfor -%}
 
