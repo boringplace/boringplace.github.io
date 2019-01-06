@@ -17,7 +17,10 @@ permalink: /boringhub/
 [Super Dimension Fortress (SDF)](http://sdf.org/).
 
 Мы не нашли подобного ПО в открытом доступе, потому инициировали
-разработку собственного решения.
+разработку собственного решения:
+
+* [Boring Shell на языке C](https://github.com/boringplace/borsh)
+* [Boring Shell на языке Rust](https://github.com/boringplace/rs-borsh)
 
 Задачи, которые будут решаться с помощью данной технологии:
 
