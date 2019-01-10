@@ -7,7 +7,7 @@ permalink: /contacts/
 
 # [](#header-1) {{ page.title }}
 
-* IRC: <a href="{{ site.bplace-irc }}">{{ site.bplace-irc }}</a>
+* IRC: <a href="https://kiwiirc.com/client/irc.freenode.net/boringplace">{{ site.bplace-irc }}</a>
 * Список рассылки: [{{ site.bplace-sarlugmail }}]({{ site.bplace-sarlugmail }})
 * Группа ВКонтакте: [{{ site.bplace-vk }}]({{ site.bplace-vk }})
 * Телефоны:
