@@ -26,6 +26,8 @@ collections:
     output: true
   pages:
     output: true
+  participants:
+    output: false
 
 # Exclude files from being included into resulting website
 exclude:

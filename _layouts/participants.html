@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="participants_content">
+        {{ content }}
+      </section>
+      <section id="participants_list">
+        <ul>
+          {%- for participant in site.participants -%}
+          {% if page.competition == participant.competition %}
+            <li>Команда "{{ participant.team }}",<br>{{ participant.name }} ({{ participant.age }} лет)
+            {% if participant.name2 != none %}
+<br>{{ participant.name2 }} ({{ participant.age2 }} лет)
+            {% endif %}
+            </li>
+          {% endif %}
+          {%- endfor -%}
+        </ul>
+      </section>
+      <section id="back">
+        <p><a href="{{ site.url }}" class="btn">на главную</a></p>
+      </section>
+    </div>
+
+  </body>
+</html>
