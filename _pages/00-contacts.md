@@ -3,6 +3,7 @@ layout: contacts
 title: >
   Контакты
 permalink: /contacts/
+type: we
 ---
 
 # [](#header-1) {{ page.title }}

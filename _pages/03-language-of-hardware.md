@@ -3,6 +3,7 @@ layout: default
 title: >
   Проект "Language of Hardware"
 permalink: /language-of-hardware/
+type: project
 ---
 
 

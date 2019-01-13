@@ -3,6 +3,7 @@ layout: default
 title: >
   Проект "Saratov Linux User Group"
 permalink: /sarlug/
+type: project
 ---
 
 

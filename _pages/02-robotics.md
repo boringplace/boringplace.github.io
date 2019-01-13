@@ -3,6 +3,7 @@ layout: default
 title: >
   Проект "Techno Competitions"
 permalink: /robotics/
+type: project
 ---
 
 

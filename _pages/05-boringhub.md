@@ -3,6 +3,7 @@ layout: default
 title: >
   Проект "BoringHub"
 permalink: /boringhub/
+type: project
 ---
 
 # [](#header-1) {{page.title}}

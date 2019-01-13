@@ -19,11 +19,24 @@
     </header>
 
     <div class="container">
+      <section id="we">
+        <h1 id="h-we">Мы</h1>
+        <ul>
+          {%- for page in site.pages -%}
+          {% if page.type == "we" %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% endif %}
+          {%- endfor -%}
+        </ul>
+      </section>
+
       <section id="projects">
         <h1 id="h-projects">Наши проекты</h1>
         <ul>
           {%- for proj in site.pages -%}
-          <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
+          {% if proj.type == "project" %}
+            <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
+          {% endif %}
           {%- endfor -%}
         </ul>
       </section>
