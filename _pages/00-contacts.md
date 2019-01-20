@@ -10,6 +10,7 @@ permalink: /contacts/
 * IRC: <a href="https://kiwiirc.com/client/irc.freenode.net/boringplace">{{ site.bplace-irc }}</a>
 * Список рассылки: [{{ site.bplace-sarlugmail }}]({{ site.bplace-sarlugmail }})
 * Группа ВКонтакте: [{{ site.bplace-vk }}]({{ site.bplace-vk }})
+* Канал YouTube [Boring Place]({{ https://www.youtube.com/channel/UCJw2NsWyPma-haUgoqn8FcA }})
 * Телефоны:
   * Рабочий: {{ site.bplace-phone }}
   * Мобильный: {{ site.bplace-mobile }}
