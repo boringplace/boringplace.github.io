@@ -6,7 +6,7 @@
 This is our public site hosted on GitHub Pages.
 
 Official URL of our website is:
-[http://boringplace.org](http://boringplace.org)
+[https://www.boringplace.org](https://www.boringplace.org)
 
 ## Build instructions
 
