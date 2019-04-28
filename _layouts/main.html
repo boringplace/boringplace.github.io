@@ -27,7 +27,7 @@
       <section id="projects">
         <h1 id="h-projects">Наши проекты</h1>
         <ul>
-          {%- for proj in site.pages -%}
+          {%- for proj in site.projects -%}
           <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
           {%- endfor -%}
         </ul>

@@ -26,6 +26,8 @@ collections:
     output: true
   pages:
     output: true
+  projects:
+    output: true
 
 # Exclude files from being included into resulting website
 exclude:
