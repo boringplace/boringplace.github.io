@@ -7,7 +7,7 @@ timezone: Europe/Saratov
 baseurl: ""
 url: "//www.boringplace.org"
 google_analytics:
-host: tor
+host: localhost
 
 theme: jekyll-theme-hacker
 lang: ru
@@ -25,6 +25,8 @@ collections:
   events:
     output: true
   pages:
+    output: true
+  projects:
     output: true
 
 # Exclude files from being included into resulting website

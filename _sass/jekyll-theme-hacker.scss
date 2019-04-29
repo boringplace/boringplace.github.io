@@ -12,6 +12,36 @@ body {
 
 /* General & 'Reset' Stuff */
 
+.header_wrapper {
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.header_container {
+  width: 525px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+  h1, h3, h4, h5, h6 {
+    margin: 0 0 0px;
+  }
+  h2 {
+    margin: 0 0 0px -28px;
+  }
+}
+
+.header_logo {
+  width: 75px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: -2px;
+  img {
+    height: 55px;
+  }
+}
+
 .container {
   width: 90%;
   max-width: 600px;
