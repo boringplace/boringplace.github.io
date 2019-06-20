@@ -1,6 +1,6 @@
 ---
 layout: circles
-title: "Кружки"
+title: "Технологические кружки"
 permalink: /circles/
 ---
 
