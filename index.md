@@ -3,16 +3,6 @@ layout: main
 title: Хакспейс Скучное Место
 ---
 
-# [](#header-1)О нас
-
-<section id="about">
-  <ul>
-    {%- for proj in site.pages -%}
-    <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
-    {%- endfor -%}
-  </ul>
-</section>
-
 ["Скучное Место"](http://boringplace.org/) это хакспейс в формате
 технического антикафе, призванное собрать технические сообщества
 вживую (фидопойки, линуксовки, SFD, митапы) и дать им площадку для
@@ -24,4 +14,12 @@ title: Хакспейс Скучное Место
 дать повод для взаимодействия серьёзно увлечённых инженеров.
 
 Наш девиз: "**Нам нужны сильные инженеры!**"
+
+<section id="about">
+  <ul>
+    {%- for proj in site.pages -%}
+    <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+</section>
 
