@@ -40,22 +40,24 @@
 
       {%- comment -%}
         Показывать блок о будущих мероприятиях, только когда они есть
-        в наличии.
+        в наличии. Линуксовки показываются всегда.
       {%- endcomment -%}
 
-      {%- if fevtc > 0 -%}
       <section id="future-events">
         <h1 id="h-future-events">Будущие мероприятия</h1>
         <ul>
+        {%- if fevtc > 0 -%}
           {%- for evt in site.events -%}
             {%- assign pdate = evt.date | date: '%s' | plus: 0 -%}
             {%- if pdate > cdate -%}
             <li>{{ evt.date | date: '%Y.%m.%d %H:%M'}} <a href="{{ evt.url }}">{{ evt.title }}</a></li>
             {%- endif -%}
           {%- endfor -%}
+        {%- endif -%}
         </ul>
+        <a href="sarlug">Линуксовка</a>, по традиции, объявляется в <a href="{{ site.bplace-sarlugmail }}">рассылке</a>,
+        <br>проводится каждые две недели в воскресенье, в 12:00
       </section>
-      {%- endif -%}
       <section id="past-events">
         <h1 id="h-past-events">Прошедшие мероприятия</h1>
         <ul>
