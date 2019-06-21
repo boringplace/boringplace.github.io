@@ -1,17 +1,13 @@
 ---
 layout: default
 title: >
-  Проект "Saratov Linux User Group"
+  "Saratov Linux User Group"
 permalink: /sarlug/
 ---
 
-
 # [](#header-1) {{ page.title }}
 
-
-## О проекте
-
-Linux User Group города Саратов (SarLUG) - одна из старейших и наиболее
+*Linux User Group* города Саратов (SarLUG) - одна из старейших и наиболее
 активных на территории РФ.
 
 За свою долгую историю существования мы прошли от сбора на улице и
