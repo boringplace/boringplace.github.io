@@ -1,13 +1,11 @@
 ---
 layout: default
 title: >
-  Проект "BoringHub"
+  "BoringHub"
 permalink: /boringhub/
 ---
 
 # [](#header-1) {{page.title}}
-
-## О проекте
 
 Проект "BoringHub" представлен репозиторием
 [borsh](https://github.com/boringplace/borsh) на GitHub и ставит

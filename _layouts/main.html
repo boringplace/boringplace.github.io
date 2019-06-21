@@ -24,6 +24,10 @@
     </header>
 
     <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+
       <section id="projects">
         <h1 id="h-projects">Наши проекты</h1>
         <ul>
@@ -43,13 +47,10 @@
             <li>{{ evt.date | date: '%Y.%m.%d %H:%M' }} <a href="{{ evt.url }}">{{ evt.title }}</a></li>
             {% endif %}
           {%- endfor -%}
-          <li>Линуксовка, по традиции, каждые 2-ве недели в воскресенье,
-          12:00. Календарь линуксовок представлен на
-          <a href="sarlug">Странице проекта “SarLUG”</a></li>
+          <li>Линуксовка, по традиции, объявляется в <a href="{{ site.bplace-sarlugmail }}">рассылке</a>,
+          проводится каждые 2-ве недели в воскресенье, 12:00.<br>Календарь представлен на
+          <a href="sarlug">cтранице проекта “SarLUG”</a></li>
         </ul>
-      </section>
-      <section id="main_content">
-        {{ content }}
       </section>
     </div>
   </body>

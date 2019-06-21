@@ -1,17 +1,13 @@
 ---
 layout: default
 title: >
-  Проект "Language of Hardware"
+  "Language of Hardware"
 permalink: /language-of-hardware/
 ---
 
-
 # [](#header-1) {{ page.title }}
 
-
-## О проекте
-
-Проект "Язык Железа" также ведётся
+Проект "*Язык Железа*" также ведётся
 [командой Boring Team](https://github.com/orgs/boringplace/teams/boring-team)
 и направлен на изучение устройства различных программно-аппаратных
 средств как микроконтроллеры, специализированные и общего назначения

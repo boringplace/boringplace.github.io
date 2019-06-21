@@ -1,23 +1,17 @@
 ---
 layout: default
 title: >
-  Проект "Techno Competitions"
+  "Techno Competitions"
 permalink: /robotics/
 ---
 
-
 # [](#header-1) {{ page.title }}
 
-
-## О проекте
-
-Проект "Techno Competitions" ведётся
+Проект "*Techno Competitions*" ведётся
 [командой Boring Team](https://github.com/orgs/boringplace/teams/boring-team)
-и решает задачи связанные с популяризацией робототехнического
-направления среди народных масс. Вы можете ознакомиться со списком
-задач на
+и решает задачи связанные с популяризации образовательной робототехнически.
+Вы можете ознакомиться со списком актуальных задач на
 [соответствующей странице](https://github.com/orgs/boringplace/projects/3).
-
 
 ## Содержание
 
