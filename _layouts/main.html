@@ -28,11 +28,11 @@
         {{ content }}
       </section>
 
-      <section id="projects">
-        <h1 id="h-projects">Наши проекты</h1>
+      <section id="cicles">
+        <h1 id="h-circles">Технологические кружки</h1>
         <ul>
-          {%- for proj in site.projects -%}
-          <li><a href="{{ proj.url }}">{{ proj.title }}</a> ({{ proj.inaword }})</li>
+          {%- for circle in site.circles -%}
+          <li><a href="{{ circle.url }}">{{ circle.title }}</a></li>
           {%- endfor -%}
         </ul>
       </section>

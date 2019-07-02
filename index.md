@@ -17,8 +17,8 @@ title: Хакспейс Скучное Место
 
 <section id="about">
   <ul>
-    {%- for proj in site.pages -%}
-    <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
+    {%- for page in site.pages -%}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
     {%- endfor -%}
   </ul>
 </section>
