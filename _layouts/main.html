@@ -32,7 +32,7 @@
         <h1 id="h-projects">Наши проекты</h1>
         <ul>
           {%- for proj in site.projects -%}
-          <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
+          <li><a href="{{ proj.url }}">{{ proj.title }}</a> ({{ proj.inaword }})</li>
           {%- endfor -%}
         </ul>
       </section>
@@ -48,8 +48,8 @@
             {% endif %}
           {%- endfor -%}
           <li>Линуксовка, по традиции, объявляется в <a href="{{ site.bplace-sarlugmail }}">рассылке</a>,
-          проводится каждые 2-ве недели в воскресенье, 12:00.<br>Календарь представлен на
-          <a href="sarlug">cтранице проекта “SarLUG”</a></li>
+          проводится каждые 2-ве недели в воскресенье, 12:00.<br>Подробности представлены на
+          <a href="sarlug">cтранице проекта “SarLUG”</a>, календарь - на <a href="sarlug/meetup">странице встреч</a>.</li>
         </ul>
       </section>
     </div>

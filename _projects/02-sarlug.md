@@ -1,37 +1,25 @@
 ---
 layout: default
-title: >
-  "Saratov Linux User Group"
+title: "Saratov Linux User Group"
 permalink: /sarlug/
+inaword: Линукс
+theme: Сообщество "Линуксоидов"
 ---
 
 # [](#header-1) {{ page.title }}
 
-*Linux User Group* города Саратов (SarLUG) - одна из старейших и наиболее
-активных на территории РФ.
+Проект посвящен обширной теме связанной с решениями на базе открытых и [*свободных
+операционных систем*](https://ru.wikipedia.org/wiki/Категория:Свободные_операционные_системы)
+([дистрибутивы](https://distrowatch.com/dwres.php?resource=popularity) на базе ядра
+[Linux](http://kernel.org), а также [Android](https://developer.android.com/),
+[FreeBSD](https://www.freebsd.org/ru/), [Inferno](http://www.vitanuova.com/inferno/) и др.)
 
-За свою долгую историю существования мы прошли от сбора на улице и
-посиделок в кафе (мы их называли "*Линуксовками*")
-до полноценной организации со сложившимся коллективом, целями и задачами.
+* Тематика: *Сообщество "Линуксоидов"*
+* Технологические кружки: [Линуксовки](meetup)
+* Команда: [Boring Team](https://github.com/orgs/boringplace/teams/boring-team)
+* Задачи проекта: [SarLUG](https://github.com/orgs/boringplace/projects/4)
 
-Стараясь преодолеть разобщённость и желая акцентировать внимание
-членов сообщества на конкретные, актуальные проблемы, были созданы
-[Центр СПО](https://www.sarfsc.ru) и
-[Скучное Место](https://www.boringplace.org/).
-Сегодня "линуксовки" проводятся в непринуждённой
-обстановке Скучного Места, где атмосфера располагает к техническому
-творчеству и обмену идеями, а встречам уже не мешают внешние факторы.
+__________
 
-Информационное сопровождение мероприятий:
- * список рассылки: [sarlug at lists.lug.ru]({{ site.bplace-sarlugmail }})
- * группа вконтакте: [vk/sarlug]({{ site.bplace-sarlugvk }}).
-
-О ближайшем мероприятии Вы можете узнать из календаря ниже:
-<iframe
-	src="https://calendar.yandex.ru/month?embed&layer_ids=6482174&tz_id=Europe/Saratov"
-	width="585"
-	height="400"
-	frameborder="0"
-	style="border: 1px solid #eee">
-</iframe>
+Подробнее о [сообществе](about).
 
