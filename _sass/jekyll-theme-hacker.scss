@@ -13,30 +13,19 @@ body {
 /* General & 'Reset' Stuff */
 
 .header_wrapper {
-  min-width: 600px;
+  width: 600px;
   margin: 0 auto;
 }
 
 .header_container {
-  width: 525px;
   margin: 0 auto;
   display: inline-block;
   text-align: left;
-  h1, h3, h4, h5, h6 {
-    margin: 0 0 0px;
-  }
-  h2 {
-    margin: 0 0 0px -28px;
-  }
 }
 
 .header_logo {
-  width: 75px;
-  margin: 0 auto;
   display: inline-block;
   text-align: left;
-  margin-left: 20px;
-  margin-right: -2px;
   img {
     height: 55px;
   }
@@ -78,7 +67,6 @@ header {
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -28px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
@@ -89,15 +77,9 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h1:before {
-  content: "# ";
-  font-size: 24px;
-}
-
 .header-link {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -28px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
