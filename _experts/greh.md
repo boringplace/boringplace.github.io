@@ -8,7 +8,7 @@ surname: Синельников
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
 
-* email: sin at boringplace.org
+* email: greh at boringplace.org
 * телефон: {{ site.bplace-mobile }} (в рабочее время)
 
 _________
