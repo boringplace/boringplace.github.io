@@ -2,7 +2,11 @@
 layout: default
 ---
 
-## Saratov Linux User Group
+## Saratov Opensource Community
+
+Саратовское сообщество пользователей и разработчикой открытых технологий
+(распространяемых по свободным лицензиям) было оформлено в рамках
+**Saratov Linux User Group**.
 
 *Linux User Group* города Саратов (SarLUG) -- одна из старейших и наиболее
 активных на территории РФ.
@@ -23,4 +27,4 @@ layout: default
  * список рассылки: [sarlug at lists.lug.ru]({{ site.bplace-sarlugmail }})
  * группа вконтакте: [vk/sarlug]({{ site.bplace-sarlugvk }}).
 
-[назад](../sarlug)
+[назад](../opensource)

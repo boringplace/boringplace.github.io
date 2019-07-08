@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Saratov Linux User Group"
-permalink: /sarlug/
+title: "Saratov Opensource Community"
+permalink: /opensource/
 inaword: Линукс
 theme: Сообщество "Линуксоидов"
 ---
@@ -17,7 +17,7 @@ theme: Сообщество "Линуксоидов"
 * Тематика: *Сообщество "Линуксоидов"*
 * Технологические кружки: [Линуксовки](meetup)
 * Команда: [Boring Team](https://github.com/orgs/boringplace/teams/boring-team)
-* Задачи проекта: [SarLUG](https://github.com/orgs/boringplace/projects/4)
+* Задачи проекта: [Saratov Opensource Community](https://github.com/orgs/boringplace/projects/4)
 
 __________
 
