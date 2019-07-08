@@ -7,7 +7,7 @@ timezone: Europe/Saratov
 baseurl: ""
 url: "//www.boringplace.org"
 google_analytics:
-host: base
+host: localhost
 
 theme: jekyll-theme-hacker
 lang: ru
