@@ -1,0 +1,12 @@
+<!-- page header: title and logo -->
+<header>
+  <div class="header_wrapper">
+    <div class="header_logo">
+      <a href="{{ site.url }}"><img src="/assets/images/BoringLogo_b.png" alt="" /></a>
+    </div>
+    <div class="header_container">
+      <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
+      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+    </div>
+  </div>
+</header>

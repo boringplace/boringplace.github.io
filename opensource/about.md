@@ -1,17 +1,18 @@
 ---
 layout: default
-title: >
-  "Saratov Linux User Group"
-permalink: /sarlug/
 ---
 
-# [](#header-1) {{ page.title }}
+## Saratov Opensource Community
 
-*Linux User Group* города Саратов (SarLUG) - одна из старейших и наиболее
+Саратовское сообщество пользователей и разработчикой открытых технологий
+(распространяемых по свободным лицензиям) было оформлено в рамках
+**Saratov Linux User Group**.
+
+*Linux User Group* города Саратов (SarLUG) -- одна из старейших и наиболее
 активных на территории РФ.
 
 За свою долгую историю существования мы прошли от сбора на улице и
-посиделок в кафе (мы их называли "*Линуксовками*")
+посиделок в кафе (мы их называли "[*Линуксовками*](meetup)")
 до полноценной организации со сложившимся коллективом, целями и задачами.
 
 Стараясь преодолеть разобщённость и желая акцентировать внимание
@@ -26,12 +27,4 @@ permalink: /sarlug/
  * список рассылки: [sarlug at lists.lug.ru]({{ site.bplace-sarlugmail }})
  * группа вконтакте: [vk/sarlug]({{ site.bplace-sarlugvk }}).
 
-О ближайшем мероприятии Вы можете узнать из календаря ниже:
-<iframe
-	src="https://calendar.yandex.ru/month?embed&layer_ids=6482174&tz_id=Europe/Saratov"
-	width="585"
-	height="400"
-	frameborder="0"
-	style="border: 1px solid #eee">
-</iframe>
-
+[назад](../opensource)

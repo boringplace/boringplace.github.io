@@ -11,17 +11,7 @@
 
   <body>
 
-    <header>
-      <div align="center" class="header_wraper">
-        <div class="header_logo">
-          <a href="{{ site.url }}"><img src="{{ site.url }}/assets/images/BoringLogo_b.png" alt="" /></a></p>
-        </div>
-        <div class="header_container">
-          <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
-          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        </div>
-      </div>
-    </header>
+    {%- include header.html -%}
 
     <div class="container">
       {%- assign cdate = site.time | date: '%s' | plus: 0 -%}

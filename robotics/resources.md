@@ -40,9 +40,9 @@ layout: default
 ### Открытые ресурсы и специальное программное обеспечение
 
 * [GrabCAD](https://grabcad.com/) (Открытый ресурс CAD-моделей)
-* [Thingverse](https://www.thingiverse.com) (Открытый ресурс STL-моделей для 3d-печати)
+* [Thingverse](https://www.thingiverse.com) (Открытый ресурс STL-моделей для 3D-печати)
 * [Taygeta](https://www.taygeta.com/dfilter.html) (Открытая библиотека фильтров Kalman)
-* [Thinkercad](https://www.tinkercad.com/) (Web-ресурс Autodesk [3d](https://www.tinkercad.com/learn/designs), [электроника](https://www.tinkercad.com/learn/circuits), [алгоритмы](https://www.tinkercad.com/learn/codeblocks))
+* [Thinkercad](https://www.tinkercad.com/) (Web-ресурс Autodesk [3D](https://www.tinkercad.com/learn/designs), [электроника](https://www.tinkercad.com/learn/circuits), [алгоритмы](https://www.tinkercad.com/learn/codeblocks))
 * [falstad/circuit](https://www.falstad.com/circuit/) (Web-симулятор цифровых схем, [исходники](https://github.com/pfalstad/circuitjs1))
 * [circuit-diagram.org](https://www.circuit-diagram.org/editor/) (Открытый web-редактор схем, [исходники](https://github.com/circuitdiagram/circuitdiagram))
 

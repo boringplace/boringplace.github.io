@@ -30,6 +30,10 @@ collections:
     output: true
   projects:
     output: true
+  experts:
+    output: true
+  common:
+    output: true
 
 # Exclude files from being included into resulting website
 exclude:

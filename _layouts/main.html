@@ -11,28 +11,18 @@
 
   <body>
 
-    <header>
-      <div align="center" class="header_wraper">
-        <div class="header_logo">
-          <a href="{{ site.url }}"><img src="{{ site.url }}/assets/images/BoringLogo_b.png" alt="" /></a></p>
-        </div>
-        <div class="header_container">
-          <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
-          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        </div>
-      </div>
-    </header>
+    {%- include header.html -%}
 
     <div class="container">
       <section id="main_content">
         {{ content }}
       </section>
 
-      <section id="projects">
-        <h1 id="h-projects">Наши проекты</h1>
+      <section id="cicles">
+        <h1 id="h-circles">Наши технологические кружки</h1>
         <ul>
-          {%- for proj in site.projects -%}
-          <li><a href="{{ proj.url }}">{{ proj.title }}</a></li>
+          {%- for circle in site.circles -%}
+          <li><a href="{{ circle.url }}">{{ circle.title }}</a></li>
           {%- endfor -%}
         </ul>
       </section>
@@ -48,8 +38,8 @@
             {% endif %}
           {%- endfor -%}
           <li>Линуксовка, по традиции, объявляется в <a href="{{ site.bplace-sarlugmail }}">рассылке</a>,
-          проводится каждые 2-ве недели в воскресенье, 12:00.<br>Календарь представлен на
-          <a href="sarlug">cтранице проекта “SarLUG”</a></li>
+          проводится каждые 2-ве недели в воскресенье, 12:00.<br>Подробности представлены на
+          <a href="opensource">cтранице проекта</a>,<br>календарь - на <a href="sarlug/meetup">странице встреч</a>.</li>
         </ul>
       </section>
     </div>

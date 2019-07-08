@@ -14,16 +14,17 @@
     {%- include header.html -%}
 
     <div class="container">
-      <section id="projects">
-        <h1 id="h-projects">Наши технологические кружки</h1>
+      <section id="experts">
+        <h1 id="h-experts">Наши эксперты</h1>
+        <section id="contents">
+          {{ content }}
+        </section>
+        Список наших экспертов:
         <ul>
-          {%- for circle in site.circles -%}
-          <li><a href="{{ circle.url }}">{{ circle.title }}</a></li>
+          {%- for expert in site.experts -%}
+          <li><b>{{ "" | append: expert.title }}</b>@ <a href="{{ expert.url }}">{{ expert.surname | append: " " | append: expert.name }}</a></li>
           {%- endfor -%}
         </ul>
-      </section>
-      <section id="contents">
-        {{ content }}
       </section>
       <section id="back">
         <p><a href="{{ site.url }}">на главную</a></p>

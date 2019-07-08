@@ -15,10 +15,10 @@
 
     <div class="container">
       <section id="projects">
-        <h1 id="h-projects">Наши технологические кружки</h1>
+        <h1 id="h-projects">Наши проекты</h1>
         <ul>
-          {%- for circle in site.circles -%}
-          <li><a href="{{ circle.url }}">{{ circle.title }}</a></li>
+          {%- for project in site.projects -%}
+          <li><a href="{{ project.url }}">{{ project.title }}</a> ({{ project.inaword }})</li>
           {%- endfor -%}
         </ul>
       </section>

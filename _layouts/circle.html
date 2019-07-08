@@ -14,20 +14,26 @@
     {%- include header.html -%}
 
     <div class="container">
-      <section id="projects">
-        <h1 id="h-projects">Наши технологические кружки</h1>
-        <ul>
-          {%- for circle in site.circles -%}
-          <li><a href="{{ circle.url }}">{{ circle.title }}</a></li>
-          {%- endfor -%}
-        </ul>
-      </section>
-      <section id="contents">
+      <section id="main_content">
         {{ content }}
+      </section>
+      <section id="experts">
+        <hr />
+        <ul>
+          <li><a href="schedule">Расписание</a></li>
+          <li><a href="../circles">Записаться</a> у экспертов:
+            <ul>
+            {%- for expert in page.experts -%}
+            <li><a href="../experts/{{ expert }}">{{ expert }}</a></li>
+            {%- endfor -%}
+            </ul>
+          </li>
+        </ul>
       </section>
       <section id="back">
         <p><a href="{{ site.url }}">на главную</a></p>
-      <section>
+      </section>
     </div>
+
   </body>
 </html>

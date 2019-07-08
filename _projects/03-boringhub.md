@@ -1,15 +1,28 @@
 ---
 layout: default
-title: >
-  "BoringHub"
-permalink: /boringhub/
+title: "BoringHub"
+permalink: /hub/
+inaword: Хакеры
+theme: Сообщество "Хакеров"
 ---
 
 # [](#header-1) {{page.title}}
 
+Проект посвящён оформлению хакерского сообщества - людей понимающих суть
+компромисса между информационной безопаснотью и удобством, заинтересованных
+в изучении работы современных информационных систем.
+
+* Тематика: *Сообщество "Хакеров"*
+* Технологические кружки: [Криптовстречи](parties)
+* Команда: [Boring Team](https://github.com/orgs/boringplace/teams/boring-team)
+* Задачи: [Github/BoringHub](https://github.com/orgs/boringplace/projects/2)
+
+__________
+
 Проект "BoringHub" представлен репозиторием
 [borsh](https://github.com/boringplace/borsh) на GitHub и ставит
 своей целью разработку шелла для пользователей "Скучного Места".
+
 
 Функционал шелла планируется аналогичным таковому у
 [Super Dimension Fortress (SDF)](http://sdf.org/).
