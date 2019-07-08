@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Saratov Opensource Community"
+title: "Opensource Community"
 permalink: /opensource/
-inaword: Линукс
+inaword: Opensource-сообщество
 theme: Сообщество "Линуксоидов"
 ---
 
@@ -17,9 +17,9 @@ theme: Сообщество "Линуксоидов"
 * Тематика: *Сообщество "Линуксоидов"*
 * Технологические кружки: [Линуксовки](meetup)
 * Команда: [Boring Team](https://github.com/orgs/boringplace/teams/boring-team)
-* Задачи проекта: [Saratov Opensource Community](https://github.com/orgs/boringplace/projects/4)
+* Задачи проекта: [Opensource Community](https://github.com/orgs/boringplace/projects/4)
 
 __________
 
-Подробнее о [сообществе](about).
+Подробнее о [Saratov Opensource Community](about).
 
