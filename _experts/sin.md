@@ -8,7 +8,7 @@ surname: Синельников
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
 
-* email: greh at boringplace.org
+* email: sin at boringplace.org
 * телефон: +7 917 207-53-96
 
 _________
