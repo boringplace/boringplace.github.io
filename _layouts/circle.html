@@ -1,39 +1,19 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=0.6">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-{% seo %}
-  </head>
-
-  <body>
-
-    {%- include header.html -%}
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
-      <section id="experts">
-        <hr />
-        <ul>
-          <li><a href="schedule">Расписание</a></li>
-          <li><a href="../circles">Записаться</a> у экспертов:
-            <ul>
-            {%- for expert in page.experts -%}
-            <li><a href="../experts/{{ expert }}">{{ expert }}</a></li>
-            {%- endfor -%}
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section id="back">
-        <p><a href="{{ site.url }}">на главную</a></p>
-      </section>
-    </div>
-
-  </body>
-</html>
+---
+layout: page
+---
+<section id="main_content">
+  {{ content }}
+</section>
+<section id="experts">
+  <hr />
+  <ul>
+    <li><a href="schedule">Расписание</a></li>
+    <li><a href="../circles">Записаться</a> у экспертов:
+      <ul>
+      {%- for expert in page.experts -%}
+      <li><a href="../experts/{{ expert }}">{{ expert }}</a></li>
+      {%- endfor -%}
+      </ul>
+    </li>
+  </ul>
+</section>
