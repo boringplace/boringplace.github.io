@@ -16,6 +16,13 @@ Prerequisites:
 * Ruby Bundler
 * Jekyll
 
+Run
+```sh
+bundle install
+```
+in the root of the repository in order to install all the necessary
+dependencies.
+
 Run `make` in the project directory to test the website (will be run
 on 127.0.0.1:8080).
 
