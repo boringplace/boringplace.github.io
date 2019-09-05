@@ -1,6 +1,9 @@
 ---
 layout: page
 ---
+{% if page.countdown %}
+  {%- include countdown.html -%}
+{% endif %}
 <section id="main_content">
   {{ content }}
 </section>
