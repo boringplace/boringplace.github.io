@@ -1,11 +1,11 @@
 ---
-layout: base
+layout: page
 title: IPv6 Only Zone
 ---
 
 #### Добро пожаловать в Дивный Новый Мир IPv6!
 
-<img src="/assets/images/IPv6.jpg"/>
+<img align="center" src="/assets/images/IPv6.jpg"/>
 
 Поздравляем, вы попали в Мир Будущего, мир равноправной связности ["IPv6"](https://version6.ru/).
 Кажется вы обратились к сайту из старого мира, который застрял в прошлом.
