@@ -8,6 +8,7 @@ title: IPv6 Only Zone
 <img src="/assets/images/IPv6.jpg"/>
 
 Поздравляем, вы попали в Мир Будущего, мир равноправной связности [IPv6](https://version6.ru/).
+
 Кажется вы обратились к сайту из старого мира<script>
   const params = new URLSearchParams(window.location.search);
   const ipv4_host = params.get("ipv4_host");
