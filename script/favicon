@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -eu ${DEBUG:+-x}
+
+SOURCE="${1:?Please specify source}"
+OUTPUT="${2:-favicon.ico}"
+
+
+# This script requires `convert` utility from Imagemagic-tools
+# or GraphicsMagic.
+
+convert -resize 32x32 \
+    -background transparent -gravity center -extent 32x32 \
+    -define icon:auto-resize="16,32" \
+    "$SOURCE" "$OUTPUT"
