@@ -1,0 +1,4 @@
+---
+layout: redirect
+newUrl: /opensource/
+---
