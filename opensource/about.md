@@ -25,6 +25,6 @@ layout: default
 
 Информационное сопровождение мероприятий:
  * список рассылки: [sarlug at lists.lug.ru]({{ site.bplace-sarlugmail }})
- * группа вконтакте: [vk/sarlug]({{ site.bplace-sarlugvk }}).
+ * группы вконтакте: [vk/sarlug]({{ site.bplace-sarlugvk }}), [vk/linuxparty]({{ site.bplace-linuxpartyvk }})
 
 [назад](../opensource)
