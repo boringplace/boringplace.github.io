@@ -2,4 +2,4 @@
 permalink: /experts.json
 layout: none
 ---
-{{ site.experts | jsonify }}
+{"md5macs": {{ site.experts | map: "md5macs" | jsonify }}}
