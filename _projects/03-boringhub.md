@@ -13,7 +13,7 @@ theme: Сообщество "Хакеров"
 в изучении работы современных информационных систем.
 
 * Тематика: *Сообщество "Хакеров"*
-* Технологические кружки: [Криптовстречи](parties)
+* Технологические кружки: ~~[Криптовстречи](parties)~~
 * Команда: [Boring Team](https://github.com/orgs/boringplace/teams/boring-team)
 * Задачи: [Github/BoringHub](https://github.com/orgs/boringplace/projects/2)
 
