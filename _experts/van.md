@@ -11,7 +11,7 @@ md5macs:
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
 
-* email: van at boringplace.org
+* email: van at sarfsc.ru
 
 _________
 
