@@ -1,4 +1,13 @@
 ---
 ---
+.online {
+  display: inline-block;
+  text-align: center;
+  color: green;
+  background-color: green;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
 
 @import 'jekyll-theme-hacker';

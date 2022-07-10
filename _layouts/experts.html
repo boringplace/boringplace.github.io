@@ -9,7 +9,19 @@ layout: page
   Список наших экспертов:
   <ul>
     {%- for expert in site.experts -%}
-    <li><b>{{ "" | append: expert.title }}</b>@ <a href="{{ expert.url }}">{{ expert.surname | append: " " | append: expert.name }}</a></li>
+      {%- assign present = false -%}
+      {%- for md5mac in expert.md5macs -%}
+        {%- for kvs in site.data.onlinemd5sums -%}
+	  {% capture onlinemd5sums %}{{ kvs[1]|map: "onlinemd5sums"|compact|join: "," }}{% endcapture %}
+	  {% if onlinemd5sums contains md5mac -%}
+            {% capture present %}{{ kvs[0] }}{% endcapture %}
+	  {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      <li>
+	 <b>{{ "" | append: expert.title }}</b>@ <a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a>
+	 {% if present -%}<span class="online" title="Прямо сейчас находится на площадке '{{ present }}'">&#8226;</span>{%- endif -%}
+      </li>
     {%- endfor -%}
   </ul>
 </section>
