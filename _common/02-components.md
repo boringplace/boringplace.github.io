@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Электронние компоненты"
+title: "Электронные компоненты"
 permalink: /components/
 ---
 
