@@ -33,13 +33,3 @@ ___________
 Дополнительная информация:
 * Подробности о [сообществе](../about)
 * Информация о проекте [Saratov Opensource Community](..)
-
-О ближайшем мероприятии Вы можете узнать из календаря ниже:
-<iframe
-	src="https://calendar.yandex.ru/month?embed&layer_ids=6482174&tz_id=Europe/Saratov"
-	width="585"
-	height="400"
-	frameborder="0"
-	style="border: 1px solid #eee">
-</iframe>
-
