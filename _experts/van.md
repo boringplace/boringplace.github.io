@@ -5,7 +5,7 @@ lang: ru
 name: Иван
 surname: Афоничев
 md5macs:
-  - dc07f45842c930dbb1c97f93a149fca8
+  - 0be3b767cc59f7b4110af9387d4fe3d7
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
