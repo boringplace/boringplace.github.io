@@ -32,6 +32,8 @@ collections:
     output: true
   experts:
     output: true
+  students:
+    output: true
   common:
     output: true
 
