@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<section id="students">
+  <h1 id="h-students">Студенты</h1>
+  <section id="contents">
+    {{ content }}
+  </section>
+  Список наших студентов:
+  <ul>
+    {%- for students in site.students -%}
+    <li><a href="{{ students.url }}">{{ students.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+</section>
