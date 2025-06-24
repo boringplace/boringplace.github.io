@@ -22,6 +22,8 @@ plugins:
   - jekyll-seo-tag
 
 collections:
+  news:
+    output: true
   circles:
     output: true
   events:
