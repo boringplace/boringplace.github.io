@@ -23,7 +23,7 @@ plugins:
 
 collections:
   news:
-   output: true 
+    output: true 
   circles:
     output: true
   events:
