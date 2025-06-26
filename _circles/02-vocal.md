@@ -6,7 +6,7 @@ htitle: >
   Эстрадно-джазовый вокал
 permalink: /club/
 keywords: эстрадный вокал для детей от 10 лет и взрослых
-experts: [{ nick: greh, name: Анастасия}]
+experts: [{ nick: jakie, name: Анастасия}]
 ---
 
 # [](#header-1) {{ page.htitle }}
