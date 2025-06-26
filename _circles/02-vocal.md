@@ -4,7 +4,6 @@ title: >
   Занятия по вокалу 
 htitle: >
   Эстрадно-джазовый вокал
-permalink: /club/
 keywords: эстрадный вокал для детей от 10 лет и взрослых
 experts: [{ nick: jakie, name: Анастасия}]
 ---
