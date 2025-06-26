@@ -1,0 +1,16 @@
+---
+layout: page
+---
+<section id="news">
+  <h1 id="h-news">Новости</h1>
+  <ul>
+    {%- for piece_of_news in site.news -%}
+      {%- assign pdate = piece_of_news.date | date: '%s' | plus: 0 -%}
+      <li>{{ piece_of_news.date | date: '%Y.%m.%d %H:%M'}} <a href="{{ piece_of_news.url }}">{{ piece_of_news.title }}</a></li>
+      {%- endif -%}
+    {%- endfor -%}
+   </ul>
+</section>
+<section id="contents">
+  {{ content }}
+</section>
