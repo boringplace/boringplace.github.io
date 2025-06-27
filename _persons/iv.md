@@ -4,6 +4,8 @@ title: iv
 lang: ru
 name: Иван
 surname: Мельников
+type: 
+  - expert
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}

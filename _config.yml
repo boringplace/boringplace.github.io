@@ -32,7 +32,7 @@ collections:
     output: true
   projects:
     output: true
-  experts:
+  persons:
     output: true
   students:
     output: true
