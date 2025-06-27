@@ -1,21 +1,19 @@
 ---
 layout: default
-title: jakie
+title: oliva
 lang: ru
-name: Анастасия 
-surname: Калинина
-md5macs:
-  - 0be3b767cc59f7b4110af9387d4fe3d7
+name: Ольга
+surname: Иванкина
 skills:
   - vocal
+type: 
+  - expert
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
 
-
-
 _________
 
-Преподаватель по вокалу
+Здесь только пара слов об эксперте "*Student*". 
 
 [назад](../experts/)

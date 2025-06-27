@@ -6,6 +6,8 @@ name: Георгий
 surname: Быстренин
 skills:
   - linux
+tipe: 
+  - expert
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}

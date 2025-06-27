@@ -4,6 +4,8 @@ title: van
 lang: ru
 name: Иван
 surname: Афоничев
+type: 
+  - expert
 md5macs:
   - 0be3b767cc59f7b4110af9387d4fe3d7
 skills:
