@@ -9,15 +9,6 @@ layout: page
   У нас есть площадки:
   <ul>
     {%- for department in site.departments -%}
-      {%- assign present = false -%}
-      {%- for md5mac in department.md5macs -%}
-        {%- for kvs in site.data.onlinemd5sums -%}
-	  {% capture onlinemd5sums %}{{ kvs[1]|map: "onlinemd5sums"|compact|join: "," }}{% endcapture %}
-	  {% if onlinemd5sums contains md5mac -%}
-            {% capture present %}{{ kvs[0] }}{% endcapture %}
-	  {%- endif -%}
-        {%- endfor -%}
-      {%- endfor -%}
       <li>
 	 <b>{{ "" | append: department.title }}</b>@ <a href="{{ department.url }}">{{ department.title }}</a>  
       </li>
