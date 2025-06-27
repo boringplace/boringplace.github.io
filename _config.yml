@@ -38,6 +38,8 @@ collections:
     output: true
   common:
     output: true
+  departments:
+    output: true
 
 # Exclude files from being included into resulting website
 exclude:
