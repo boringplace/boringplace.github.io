@@ -4,6 +4,8 @@ title: oliva
 lang: ru
 name: Ольга
 surname: Иванкина
+type: 
+  - expert
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}

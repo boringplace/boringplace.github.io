@@ -4,8 +4,11 @@ title: greh
 lang: ru
 name: Валерий
 surname: Синельников
+type: 
+  - expert
 md5macs:
   - 33e8f8d8ce4ab74b68696b210dc77f3d
+  
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}

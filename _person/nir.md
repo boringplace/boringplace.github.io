@@ -4,6 +4,8 @@ title: nir
 lang: ru
 name: Игорь
 surname: Чудов
+type: 
+  - expert
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
