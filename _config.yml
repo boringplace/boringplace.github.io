@@ -1,0 +1,60 @@
+title: Скучное место
+description: Hacker Space Boring Place.
+show_downloads: true
+future: true
+timezone: Europe/Saratov
+
+baseurl: ""
+url: "//www.boringplace.org"
+google_analytics:
+host: localhost
+
+theme: jekyll-theme-hacker
+lang: ru
+langs:
+  - ru
+  - en
+
+twitter_username: boringplacenet
+github_username: boringplace
+
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  news:
+    output: true
+  circles:
+    output: true
+  events:
+    output: true
+  pages:
+    output: true
+  projects:
+    output: true
+  experts:
+    output: true
+  students:
+    output: true
+  common:
+    output: true
+  
+# Exclude files from being included into resulting website
+exclude:
+  - makefile
+  - README.md
+  - thumbnail.png
+
+# Some variables to insert into pages
+bplace-mobile: "+7 917 208-78-18"
+bplace-phone: "+7 8452 98-78-18"
+bplace-vk: "https://vk.com/boringplacenet"
+bplace-irc: "irc:#boringplace@irc.freenode.net"
+bplace-address: "г. Саратов, ул. Соборная, д. 25, строение 1, вход справа от РАНХиГС"
+bplace-sarlugmail: "https://lists.lug.ru/mailman/listinfo/sarlug"
+bplace-sarlugvk: "https://vk.com/sarlug"
+bplace-tgchat: "https://t.me/BoringPlace"
+bplace-linuxpartyvk: "https://vk.com/linuxparty"
+bplace-mail-robot: "robots@boringplace.org"
+bplace-youtube: "https://www.youtube.com/channel/UCJw2NsWyPma-haUgoqn8FcA"
+bplace-youtube-short: "https://clck.ru/F57gB"
