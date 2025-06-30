@@ -4,6 +4,8 @@ title: gkot
 lang: ru
 name: Георгий
 surname: Быстренин
+skills:
+  - linux
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
