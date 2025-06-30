@@ -36,6 +36,8 @@ collections:
     output: true
   students:
     output: true
+  departments:
+    output: true
   common:
     output: true
   
