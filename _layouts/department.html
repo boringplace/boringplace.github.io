@@ -3,10 +3,19 @@ layout: page
 ---
 <section id="main_content">
   {{ content }}
-  <p><b>Адрес</b></p>
-  {{page.address}}
-  <p><b>Координаты</b></p>
-  {{page.coordinates}}
-  <p><b>Время работы</b></p>
-  {{page.working-time}}
+  
+  {% if page.address %}
+    <p><b>Адрес</b></p>
+    {{page.address}}
+  {% endif %}
+  
+  {% if page.coordinates %}
+    <<p><b>Расположение</b></p>
+    {%- include address.html -%}
+  {% endif %}
+      
+  {% if page.working-time %}
+    <p><b>Время работы</b></p>
+    {{page.working-time}}
+  {% endif %}
 </section>
