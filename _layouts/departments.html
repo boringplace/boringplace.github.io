@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<section id="departments">
+  <h1 id="h-departments">Наши площадки</h1>
+  <section id="contents">
+    {{ content }}
+  </section>
+  У нас есть площадки:
+  <ul>
+    {%- for department in site.departments -%}
+      <li>
+	 <b>{{ "" | append: department.title }}</b> <a href="{{ department.url }}">{{ department.title }}</a>  
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>
