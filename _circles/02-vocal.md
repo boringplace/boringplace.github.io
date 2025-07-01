@@ -6,16 +6,21 @@ htitle: >
   Эстрадно-джазовый вокал
   
 keywords: эстрадный вокал для детей от 10 лет и взрослых
-experts: [{ nick: jakie, name: Анастасия}]
+skills: [vocal]
 ---
 
 # [](#header-1) {{ page.htitle }}
 
 
 * [Записаться](/circles) у экспертов:
-{%- for expert in page.experts -%}
-&nbsp;<a href="../experts/{{ expert.nick }}">{{ expert.name }}</a>
+
+
+{%- for expert in site.experts -%}
+{% if page.skills & expert.skills == expert.skills  %}
+  &nbsp;<a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a>
+{% endif %}
 {%- endfor -%}<br>
+
 * <u>Стоимость</u>: *1000* руб. -- за 1 занятие<br>(длительность занятия 45 минут)
 
 ___________

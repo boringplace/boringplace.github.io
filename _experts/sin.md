@@ -6,6 +6,9 @@ name: Евгений
 surname: Синельников
 md5macs:
   - 54aa78c0e59f82ed57c828e98a77768d
+skills:
+  - linux
+  - robots
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}

@@ -4,6 +4,8 @@ title: iv
 lang: ru
 name: Иван
 surname: Мельников
+skills:
+  - linux
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
