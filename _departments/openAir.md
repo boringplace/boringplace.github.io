@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: department
 title:  OpenAir площадка
 lang: ru
+working-time: круглосуточно
 ---
 
 # [](#header-1) {{ page.title }}
