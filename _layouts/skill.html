@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<section id="Skills">
+  <h1 id="h-skills">Способности</h1>
+  <section id="contents">
+    {{ content }}
+  </section>
+  Каждый из нас обладает навыками, которые могут пригодиться вам в вашем обучении:
+  <ul>
+    {%- for skill in site.skills -%}
+      <li>
+	 <b>{{ "" | append: skills.title }}</b> <a href="{{ skills.url }}">{{ skills.title }}</a>  
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>
