@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: circle
 title: Встречи пользователей Linux
 htitle: Линуксовки
 permalink: /opensource/meetup/

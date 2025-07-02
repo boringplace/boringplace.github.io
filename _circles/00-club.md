@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: circle
 title: >
   Клуб робототехники микроэлектроники и программирования
 htitle: >
