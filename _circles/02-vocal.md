@@ -7,6 +7,7 @@ htitle: >
   
 keywords: эстрадный вокал для детей от 10 лет и взрослых
 skills: [vocal]
+
 ---
 
 # [](#header-1) {{ page.htitle }}
@@ -18,8 +19,13 @@ skills: [vocal]
 {%- for expert in site.experts -%}
 {% if page.skills & expert.skills == page.skills  %}
   &nbsp;<a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a>
+    {{ page.skills }}
+   {{ page.skills & expert.skills }}
+   {{ expert.skills }}
 {% endif %}
 {%- endfor -%}<br>
+
+
 
 * <u>Стоимость</u>: *1000* руб. -- за 1 занятие<br>(длительность занятия 45 минут)
 
