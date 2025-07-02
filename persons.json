@@ -1,0 +1,5 @@
+---
+permalink: /persons.json
+layout: none
+---
+{"md5macs": {{ site.persons | map: "md5macs" | jsonify }}}

@@ -6,6 +6,8 @@ name: Сергей
 surname: Шубин
 skills:
   - linux
+type: 
+  - expert
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}

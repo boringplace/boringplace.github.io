@@ -8,7 +8,7 @@ layout: page
   </section>
   Список наших экспертов:
   <ul>
-    {%- for expert in site.experts -%}
+    {%- for person in site.persons -%}
       {%- assign present = false -%}
       {%- for md5mac in expert.md5macs -%}
         {%- for kvs in site.data.onlinemd5sums -%}
@@ -19,7 +19,7 @@ layout: page
         {%- endfor -%}
       {%- endfor -%}
       <li>
-	 <b>{{ "" | append: expert.title }}</b>@ <a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a>
+	 <b>{{ "" | append: expert.title }}</b>@ <a href="{{ person.url }}">{{ person.surname }} {{ person.name }}</a>
 	 {% if present -%}<span class="online" title="Прямо сейчас находится на площадке '{{ present }}'">&#8226;</span>{%- endif -%}
       </li>
     {%- endfor -%}
