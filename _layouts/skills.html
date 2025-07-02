@@ -1,0 +1,21 @@
+---
+layout: page
+---
+<section id="main_content">
+  {{ content }}
+  
+  {% if page.skills %}
+    <p><b>Способности</b></p>
+    {{page.skills}}
+  {% endif %}
+  
+  {% if page.vocal %}
+    <<p><b>Вокал</b></p>
+    {%- include skills.html -%}
+  {% endif %}
+      
+ {% if page.linux %}
+    <<p><b>Линукс</b></p>
+    {%- include skills.html -%}
+  {% endif %}
+</section>
