@@ -19,8 +19,8 @@ skills: [vocal]
    {%- assign match = 0 -%}
    {%- for page_skill in page.skills -%}
      {% if expert.skills contains page_skill %}
-       {%- assign match = match+1 -%} 
-      match: {{ match }}
+       {%- assign match = match | plus: 1 -%}
+       {{ match }}
        {{ page_skill }}
      {%- endif -%}
       {{ expert.skills }}
