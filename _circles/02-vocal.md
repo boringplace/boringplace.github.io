@@ -21,8 +21,10 @@ skills: [vocal]
      {% if expert.skills contains page_skill %}
        {%- assign match = match+1 -%}
        {{ match }}
-       {{ page.skill }}
+       {{ page_skill }}
      {%- endif -%}
+      {{ expert.skills }}
+      {{ page_skill }}
    {% endfor %}
    {% if match == page.skills.size %}
     &nbsp;<a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a>
