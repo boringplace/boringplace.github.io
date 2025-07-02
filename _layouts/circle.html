@@ -7,6 +7,7 @@ layout: page
 <section id="experts">
   <hr/>
   <ul>
+  {% if page.skills %}
 <li><a href="../circles">Записаться</a> у экспертов:
  <ul>
  {%- for expert in site.experts -%}
@@ -22,5 +23,6 @@ layout: page
  {%- endfor -%}
       </ul>
     </li>
+      {% endif %}
   </ul>
 </section>
