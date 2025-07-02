@@ -7,15 +7,13 @@ htitle: >
 permalink: /club/
 keywords: робототехника, технический кружок, моделирование, курсы детям, программирование для детей
 experts: [{ nick: greh, name: Валерий}, { nick: sin, name: "Евгений"}]
+skills: [robots]
 ---
 
 # [](#header-1) {{ page.htitle }}
 
 * [Расписание](schedule)
-* [Записаться](/circles) у экспертов:
-{%- for expert in page.experts -%}
-&nbsp;<a href="../experts/{{ expert.nick }}">{{ expert.name }}</a>
-{%- endfor -%}<br>
+
 * <u>Стоимость</u>: *2500* руб. в месяц -- за 4 занятия<br>(каждое по 2 академических часа в неделю)
 
 ___________
