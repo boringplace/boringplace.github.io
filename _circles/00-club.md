@@ -7,6 +7,7 @@ htitle: >
 permalink: /club/
 keywords: робототехника, технический кружок, моделирование, курсы детям, программирование для детей
 experts: [{ nick: greh, name: Валерий}, { nick: sin, name: "Евгений"}]
+skills: [robots]
 ---
 
 # [](#header-1) {{ page.htitle }}
