@@ -14,19 +14,20 @@ skills: [vocal]
 
 
 * [Записаться](/circles) у экспертов:
-
-
-{%- for expert in site.experts -%}
-{% if page.skills & expert.skills == page.skills  %}
-  &nbsp;<a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a>
-    {{ page.skills }}
-   {{ page.skills & expert.skills }}
-   {{ expert.skills }}
-{% endif %}
-{%- endfor -%}<br>
-
-
-
+ 
+ {%- for expert in site.experts -%}
+   {%- assign match = 0 -%}
+   {%- for page_skill in page.skills -%}
+     {% if expert.skills contains page_skill %}
+       {%- assign match = match+1 -%}
+     {%- endif -%}
+   {% endfor %}
+   {% if match == page.skills.size %}
+    &nbsp;<a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a>
+   {%- endif -%}
+ {%- endfor -%}
+ 
+  
 * <u>Стоимость</u>: *1000* руб. -- за 1 занятие<br>(длительность занятия 45 минут)
 
 ___________
