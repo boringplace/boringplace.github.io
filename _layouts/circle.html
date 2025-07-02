@@ -9,15 +9,15 @@ layout: page
   <ul>
 <li><a href="../circles">Записаться</a> у экспертов:
  <ul>
- {%- for expert in site.experts -%}
+ {%- for person in site.persons -%}
    {%- assign match = 0 -%}
    {%- for page_skill in page.skills -%}
-     {% if expert.skills contains page_skill %}
+     {% if person.skills contains page_skill %}
        {%- assign match = match | plus: 1 -%}
      {%- endif -%}
    {% endfor %}
    {% if match == page.skills.size %}
-    <li><a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a></li>
+    <li><a href="{{ person.url }}">{{ person.surname }} {{ person.name }}</a></li>
    {%- endif -%}
  {%- endfor -%}
       </ul>
