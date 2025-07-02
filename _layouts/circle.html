@@ -5,14 +5,21 @@ layout: page
   {{ content }}
 </section>
 <section id="experts">
-  <hr />
+  <hr/>
   <ul>
-    <li><a href="schedule">Расписание</a></li>
     <li><a href="../circles">Записаться</a> у экспертов:
-      <ul>
-      {%- for expert in page.experts -%}
-      <li><a href="../experts/{{ expert }}">{{ expert }}</a></li>
-      {%- endfor -%}
+    <ul>
+    {%- for expert in site.experts -%}
+      {%- assign match = 0 -%}
+      {%- for page_skill in page.skills -%}
+        {% if expert.skills contains page_skill %}
+          {%- assign match = match | plus: 1 -%}
+        {%- endif -%}
+      {% endfor %}
+    {% if match == page.skills.size %}
+     <li><a href="{{ expert.url }}">{{ expert.surname }} {{ expert.name }}</a></li>
+    {%- endif -%}
+    {%- endfor -%}
       </ul>
     </li>
   </ul>
