@@ -3,6 +3,7 @@ layout: circle
 title: Встречи пользователей Linux
 htitle: Линуксовки
 permalink: /opensource/meetup/
+skills: [linux]
 ---
 
 # [](#header-1) {{ page.htitle }}
