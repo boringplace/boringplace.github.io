@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: circle
 title: >
   Занятия по вокалу 
 htitle: >
