@@ -9,8 +9,8 @@ layout: page
   </section>
   Список наших студентов:
   <ul>
-    {%- for student in site.students -%}
-    <li> <b>{{ "" | append: student.title }}</b>@ <a href="{{ student.url }}">{{ student.surname }} {{ student.name }}</a></li>
+    {%- for person in site.persons -%}
+    <li> <b>{{ "" | append: person.title }}</b>@ <a href="{{ person.url }}">{{ person.surname }} {{ person.name }}</a></li>
     {%- endfor -%}
   </ul>
 </section>
