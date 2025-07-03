@@ -16,6 +16,4 @@ permalink: /contacts/
 * Телефоны:
   * Рабочий: {{ site.bplace-phone }}
   * Мобильный: {{ site.bplace-mobile }}
-<br><br>
-* Наш адрес: *{{ site.bplace-address }}*
-* Часы работы: *10:00-22:00 с понедельника по пятницу*
+
