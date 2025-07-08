@@ -10,7 +10,7 @@ layout: page
   Список наших студентов:
   <ul>
   {%- for person in site.persons -%}
-    {% if person.type. contains "student" -%}
+    {% if person.type.contains "student" -%}
         <li> <b>{{ person.title }}</b>@ <a href="{{ person.url}}">{{ person.surname }} {{ person.name }}</a></li>
     {%- endif -%}
   {%- endfor -%}
