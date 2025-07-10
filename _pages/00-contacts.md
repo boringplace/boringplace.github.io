@@ -8,7 +8,6 @@ permalink: /contacts/
 # [](#header-1) {{ page.title }}
 
 
-* IRC: <a href="https://kiwiirc.com/client/irc.freenode.net/boringplace">{{ site.bplace-irc }}</a>
 * Рассылка: [{{ site.bplace-sarlugmail }}]({{ site.bplace-sarlugmail }})
 * Группа ВКонтакте: [{{ site.bplace-vk }}]({{ site.bplace-vk }})
 * Канал YouTube [Boring Place]({{ site.bplace-youtube-short }})
@@ -16,4 +15,12 @@ permalink: /contacts/
 * Телефоны:
   * Рабочий: {{ site.bplace-phone }}
   * Мобильный: {{ site.bplace-mobile }}
+*  Наши площадки:
+  <ul>
+    {%- for department in site.departments -%}
+      <li>
+	 <a href="{{ department.url }}">{{ department.title }}</a>  
+      </li>
+    {%- endfor -%}
+  </ul>
 
