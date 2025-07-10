@@ -16,11 +16,6 @@ permalink: /contacts/
   * Рабочий: {{ site.bplace-phone }}
   * Мобильный: {{ site.bplace-mobile }}
 *  Наши площадки:
-  <ul>
-    {%- for department in site.departments -%}
-      <li>
-	 <a href="{{ department.url }}">{{ department.title }}</a>  
-      </li>
-    {%- endfor -%}
-  </ul>
+  * [Underground] (https://www.boringplace.org/departments/underground.html)
+  * [OpenAir площадка] (https://www.boringplace.org/departments/openAir.html)
 
