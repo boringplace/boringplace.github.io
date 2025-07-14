@@ -15,7 +15,6 @@ permalink: /contacts/
 * Телефоны:
   * Рабочий: {{ site.bplace-phone }}
   * Мобильный: {{ site.bplace-mobile }}
-*  Наши площадки:
-  * [Underground] (https://www.boringplace.org/departments/underground.html)
-  * [OpenAir площадка] (https://www.boringplace.org/departments/openAir.html)
+*  [Наши площадки] (https://www.boringplace.org/departments/)
+
 
