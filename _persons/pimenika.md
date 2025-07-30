@@ -1,15 +1,15 @@
 ---
 layout: default
-title: oliva
+title: pimenika
 lang: ru
-name: Ольга
-surname: Иванкина
+name: Вероника
+surname: Пименова
+type:
+- student 
 ---
 
 # [](#header-1) {{ page.surname | append: " " | append: page.name }}
 
-_________
-
-Студентка театрального института. 
+Стажёр.
 
 [назад](../students/)

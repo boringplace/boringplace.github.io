@@ -27,3 +27,10 @@ layout: page
       {%- endfor -%}
     </ul>
   </section>
+      <li>
+	 <b>{{ "" | append: person.title }}</b>@ <a href="{{ person.url }}">{{ person.surname }} {{ person.name }}</a>
+	 {% if present -%}<span class="online" title="Прямо сейчас находится на площадке '{{ present }}'">&#8226;</span>{%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>
