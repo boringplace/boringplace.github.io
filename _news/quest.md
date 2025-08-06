@@ -42,6 +42,6 @@ date: 2025-07-30T01:50:00 +0400
 
 🔗**Стоимость:** 1500р.
 
-🔗 **Запись:** https://t.me/BoringPlaceEscapeRoom
+🔗 **Запись:** [https://t.me/BoringPlaceEscapeRoom](https://t.me/BoringPlaceEscapeRoom)
 
 [назад](../news/)
