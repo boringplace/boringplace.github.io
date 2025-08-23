@@ -11,7 +11,7 @@ layout: page
       {%- for person in site.persons -%}
          {% if person.type contains "expert" -%}
           {%- assign present = false -%}
-          {%- for md5mac in expert.md5macs -%}
+          {%- for md5mac in person.md5macs -%}
              {%- for kvs in site.data.onlinemd5sums -%}
 	       {% capture onlinemd5sums %}{{ kvs[1]|map: "onlinemd5sums"|compact|join: "," }}{% endcapture %}
 	       {% if onlinemd5sums contains md5mac -%}
