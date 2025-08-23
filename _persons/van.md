@@ -7,7 +7,7 @@ surname: Афоничев
 type: 
   - expert
 md5macs:
-  - 0be3b767cc59f7b4110af9387d4fe3d7
+  - 68792495979977855837e560d46832f6
 skills:
   - linux
 ---
