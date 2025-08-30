@@ -21,24 +21,4 @@ coordinates: 51.531100173522155,46.038851737976074
 
 PS: при входе на эту площадку Скучного Места необходимо переобуваться в свою сменку или имеющиеся в наличии шлёпки.
 
-<ul>
-      {%- for person in site.persons -%}
-         {% if person.type contains "Underground" -%}
-          {%- assign present = false -%}
-          {%- for md5mac in person.md5macs -%}
-             {%- for kvs in site.data.onlinemd5sums -%}
-	       {% capture onlinemd5sums %}{{ kvs[1]|map: "onlinemd5sums"|compact|join: "," }}{% endcapture %}
-	       {% if onlinemd5sums contains md5mac -%}
-                 {% capture present %}{{ kvs[0] }}{% endcapture %}
-               {%- endif -%}
-             {%- endfor -%}
-          {%- endfor -%}
-          <li>
-      	      <b>{{ "" | append: person.title }}</b>@ <a href="{{ person.url }}">{{ person.surname }} {{ person.name }}</a>
-	      {% if present -%}<span class="online" title="Прямо сейчас находится на площадке '{{ present }}'">&#8226;</span>{%- endif -%}
-          </li>
-         {%- endif -%}
-      {%- endfor -%} 
-  </ul>
-
 [назад](../departments/)
