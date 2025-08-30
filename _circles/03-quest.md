@@ -2,7 +2,6 @@
 layout: circle
 title: Квест «Спасти пингвина» 
 htitle: СПАСТИ ПИНГВИНА
-permalink: /opensource/meetup/
 ---
 
 # [](#header-1) {{ page.htitle }}
