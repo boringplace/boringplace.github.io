@@ -40,13 +40,12 @@ htitle: СПАСТИ ПИНГВИНА
 <u> Команды 2-4 человек, 12+</u>
 
 Стоимость: 1500р.
-___________________
 
 **Как записаться на квест?**
 Очень просто — через Telegram или по номеру телефона!
 
 * Напиши нам прямо в чат:
-https://t.me/BoringPlaceEscapeRoom
+[https://t.me/BoringPlaceEscapeRoom] (https://t.me/BoringPlaceEscapeRoom) 
 
 * Позвони или напиши нам:
 +7 (999) 123-45-67
