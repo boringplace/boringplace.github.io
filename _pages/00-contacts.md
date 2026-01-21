@@ -12,6 +12,7 @@ permalink: /contacts/
 * Рассылка: [{{ site.bplace-sarlugmail }}]({{ site.bplace-sarlugmail }})
 * Группа ВКонтакте: [{{ site.bplace-vk }}]({{ site.bplace-vk }})
 * Канал YouTube [Boring Place]({{ site.bplace-youtube-short }})
+* Репозиторий на [GitHub](https://github.com/boringplace)
 * Чат в Telegram: [{{ site.bplace-tgchat }}]({{ site.bplace-tgchat }})
 * Телефоны:
   * Рабочий: {{ site.bplace-phone }}
