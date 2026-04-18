@@ -5,8 +5,8 @@ lang: ru
 name: Генрих
 surname: Коц
 skills:
-  - Security
-tipe: 
+  - infosec
+type: 
   - expert
 ---
 
