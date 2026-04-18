@@ -6,7 +6,7 @@ name: Георгий
 surname: Быстренин
 skills:
   - linux
-tipe: 
+type: 
   - expert
 ---
 
