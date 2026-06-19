@@ -1,0 +1,12 @@
+<li> Скиллы экспертов:
+{% if site.person %}
+<ul class="post-skills">  
+{%- for person in site.persons -%}
+  {% assign found_skills = site.person | where: "skills", tag %}
+  {% for skill in found_skills limit:1 %} 
+  <li><a href="{{ skill.url }}" title="{{ skill.title }}">{{ skill.slug }}</a></li>
+  {% endfor %}
+{% endfor %}
+</ul>
+</li>
+{% endif %}
