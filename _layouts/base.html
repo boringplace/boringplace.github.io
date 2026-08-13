@@ -8,6 +8,35 @@
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
     <meta name="Keywords" content="{{ page.keywords }}">
 {% seo %}
+    <style>
+      /* Шапка: выравнивание в строку */
+      .header-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      /* Адрес прижимаем вправо */
+      .header-address {
+        margin-left: auto;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.5;
+        white-space: nowrap;
+        text-align: right;
+      }
+      /* Мобильная версия */
+      @media (max-width: 768px) {
+        .header-wrapper {
+          flex-wrap: wrap;
+        }
+        .header-address {
+          width: 100%;
+          text-align: center;
+          white-space: normal;
+          margin: 8px 0 0;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -21,10 +50,12 @@
           <a href="{{ site.url }}" class="header-link">{{ site.title | default: site.github.repository_name }}</a>
           <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         </div>
+        <address class="header-address">
+          г. Саратов, Соборная 25 с1
+        </address>
       </div>
     </header>
     {{ content }}
     {%- include chat.html -%}
   </body>
 </html>
-
